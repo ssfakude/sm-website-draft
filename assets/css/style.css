@@ -313,7 +313,7 @@ h1, h2, h3, h4, h5, h6 {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  
+  opacity: 0.5;
   z-index: -1;
 } 
 .bg-text {
@@ -322,7 +322,7 @@ h1, h2, h3, h4, h5, h6 {
   background-size: cover;
   color: white;
   font-weight: bold;
-  position: absolute;
+
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -339,25 +339,24 @@ h1, h2, h3, h4, h5, h6 {
   background:#25094D;
   
   background : url("../img/bb.jpg");
+  background-size: 100% auto;
   /* filter: blur(8px);
   -webkit-filter: blur(8px); */
   background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
+  background-attachment: contain;
+ 
+  
 
   /* background: linear-gradient(0deg, #2a2c39 0%, #33364a 100%); */
   padding: 0;
 }
 #hero .carousel-container {
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
-  background-size: cover;
+
   align-items: center;
   text-align: center;
   position: relative;
-  padding: 250px;
+  /* padding: 250px; */
   text-align: center;
-
   height: 70vh;
   width: 100%;
   padding: 0;
