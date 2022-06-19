@@ -339,12 +339,15 @@ h1, h2, h3, h4, h5, h6 {
   background:#25094D;
   
   background : url("../img/bb.jpg");
-  background-size: 100% auto;
+  background-size: 100%;
   /* filter: blur(8px);
   -webkit-filter: blur(8px); */
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat;
   background-attachment: contain;
- 
+  */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
   
 
   /* background: linear-gradient(0deg, #2a2c39 0%, #33364a 100%); */
